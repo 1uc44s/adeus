@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Ojuju:wght@200..800&family=Yuji+Mai&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 86px;
+    background-color: orange;
+    color: #ffff;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Caveat", cursive;
+    z-index: 1;
+}
+
+.nav-logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.nav-logo-a{
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.nav-links a {
+    float: left;
+    display: block;
+
+    color: #eee;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.banner-paragraf {
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "Caveat", cursive;
+}
+
+hr {
+    margin-top: 50px;
+    border-style: solid;
+    color: orange;
+    border-width: 2px;
+}
+
+.special-paket {
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 100px;
+
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    border-radius: 15px;
+    box-shadow: 0px 5px 50px #717171;
+
+    font-family: "Ojuju", sans-serif;
+}
+
+.spec-pak-h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.spec-pak-p {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.spec-pak-icerik {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 35%;
+    line-height: 75px;
+
+
+}
+
+.spec-pak-ice-li{
+    color: #000000;
+    font-family: "Ojuju", sans-serif;
+    font-size: 17px;
+}
+
+.satin-al {
+    color: gray;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 40%;
+
+
+}
+
+.satin-al:hover {
+    color: white;
+    background-color: orange;
+    box-shadow: 0px 5px 50px orange;
+}
+
+.sosyal-medya {
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+
+    line-height: 50px;
+
+    font-family: "Ojuju", sans-serif;
+
+
+}
+
+.sos-med-h1 {
+    margin-left: 31%;
+}
+
+.sos-med-p {
+    margin-left: 25%;
+}
+
+.sos-meds {
+    line-height: 70px;
+}
+
+.discord {
+    color: blue;
+
+
+    margin-left: 30%;
+    margin-bottom: 100px;
+
+    border: 1px solid;
+    border-radius: 20px;
+
+    padding: 10px 30px 10px 20px;
+}
+
+.discord:hover {
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    box-shadow: 0px 5px 50px blue;
+}
+
+.instagram {
+    color: #cd486b;
+
+    margin-left: 30%;
+    margin-bottom: 100px;
+
+    border: 1px solid;
+    border-radius: 20px;
+
+    padding: 10px 20px 10px 20px;
+}
+
+.instagram:hover {
+    color: white;
+    border-color: #cd486b;
+    background-color: #cd486b;
+    box-shadow: 0px 5px 50px #cd486b;
+}
+
+.whatsapp {
+    color: #25d366;
+
+    margin-left: 30%;
+    margin-bottom: 100px;
+
+    border: 1px solid;
+    border-radius: 20px;
+
+    padding: 10px 20px 10px 20px;
+}
+
+.whatsapp:hover {
+    color: white;
+    border-color: #25d366;
+    background-color: #25d366;
+    box-shadow: 0px 5px 50px #25d366;
+}
+
+.iletisim-div {
+    margin-top: 100px;
+    margin-left: 35%;
+
+    font-size: 20px;
+
+    font-family: "Ojuju", sans-serif;
+}
+
+input {
+    display: block;
+    width: 40%;
+    height: 50px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #000000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+}
+
+.isim {
+    padding-left: 10px;
+}
+
+.send-button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: block;
+    width: 43%;
+    height: 50px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #000000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+}
+
+/*
+footer {
+    background-color: rgb(36, 36, 44);
+    width: 100%;
+    height: 210px;
+    float: left;
+    color: white;
+    font-family: "Ojuju", sans-serif;
+}
+
+.footer #kutu b {
+    font-size: 14px;
+}
+
+.footer_container {
+    width: 768px;
+    height: 175px;
+    margin: 30px auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 17px 0;
+    padding: 0px;
+}
+
+#kutu {
+    width: auto;
+    height: 125px;
+    float: left;
+}
+
+ul li {
+    float: left;
+    font-family: tahoma;
+    font-size: 12px;
+    margin-bottom: 8px;
+    clear: left;
+    color: #949798;
+}
+
+#kutu:last-child li {
+    float: left;
+    clear: none;
+    margin-right: 10px;
+}
+
+.discord-footer{
+    color: #949798;
+}
+
+.instagram-footer{
+    color: #949798;
+
+}
+
+.whatsapp-footer{
+    color: #949798;
+
+}
+
+.footer-a{
+    color: #949798;
+}
+*/
+
+/* Resposive ve Burger Menü Başlangıç */
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+  
+.burger .line1,
+.burger .line2,
+.burger .line3{
+    width: 24px;
+    height: 3px;
+    background-color: #ffff;
+    transition: .3s ease;
+}
+
+.burger .line2{
+    margin: 3px 0px;
+}
+  
+@media screen and (max-width: 667px){
+    body{
+      overflow-x: hidden;
+    }
+  
+    .burger{
+      display: block;
+    }
+  
+    .nav-links{
+      position: absolute;
+      top: 7vh;
+      right: 0;
+      width: 60%;
+      height: 92vh;
+      display: flex;
+      flex-direction: column;
+      background: orange;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: .5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links li{
+      opacity: 0;
+    }
+
+    .banner-paragraf{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    /* Paket */
+
+    .special-paket{
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 100px;
+    
+        padding-top: 25px;
+        padding-bottom: 50px;
+    
+        border-radius: 15px;
+        box-shadow: 0px 5px 50px #717171;
+    
+        font-family: "Ojuju", sans-serif;
+    }
+
+    .spec-pak-h1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .spec-pak-p {
+        text-align: center;
+        font-weight: bold;
+
+    }
+    
+    .spec-pak-icerik {
+        padding-left:18%;
+        line-height: 75px;
+
+        font-family: "Ojuju", sans-serif;
+    }
+    
+    .spec-pak-ice-li{
+        color: #000000;
+        font-family: "Ojuju", sans-serif;
+
+        font-size: 15px;
+    }
+
+    /* Satın Al Buton */
+    
+    .satin-al {
+        color: gray;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+
+        margin-left: 30%;
+    
+    }
+    
+    .satin-al:hover {
+        color: white;
+        background-color: orange;
+        box-shadow: 0px 5px 50px orange;
+    }
+
+    /* Sosyal Medyalar */
+    
+    .sosyal-medya {
+        margin-top: 75px;
+        margin-left: 25%;
+        margin-right: 15%;
+        margin-bottom: 100px;
+    
+        line-height: 50px;
+    
+        font-family: "Ojuju", sans-serif;
+    
+    
+    }
+    
+    .sos-med-h1 {
+        margin-left: 25%;
+    }
+    
+    .sos-med-p {
+        font-size: 14px;
+        margin-left:1%;
+    }
+    
+    .sos-meds {
+        line-height: 70px;
+    }
+    
+    .discord {
+        color: blue;
+    
+    
+        margin-left: 18%;
+        margin-bottom: 100px;
+    
+        border: 1px solid;
+        border-radius: 20px;
+    
+        padding: 10px 30px 10px 20px;
+    }
+    
+    .discord:hover {
+        color: white;
+        border-color: blue;
+        background-color: blue;
+        box-shadow: 0px 5px 50px blue;
+    }
+    
+    .instagram {
+        color: #cd486b;
+    
+        margin-left: 18%;
+        margin-bottom: 100px;
+    
+        border: 1px solid;
+        border-radius: 20px;
+    
+        padding: 10px 20px 10px 20px;
+    }
+    
+    .instagram:hover {
+        color: white;
+        border-color: #cd486b;
+        background-color: #cd486b;
+        box-shadow: 0px 5px 50px #cd486b;
+    }
+    
+    .whatsapp {
+        color: #25d366;
+    
+        margin-left: 18%;
+        margin-bottom: 100px;
+    
+        border: 1px solid;
+        border-radius: 20px;
+    
+        padding: 10px 20px 10px 20px;
+    }
+    
+    .whatsapp:hover {
+        color: white;
+        border-color: #25d366;
+        background-color: #25d366;
+        box-shadow: 0px 5px 50px #25d366;
+    }
+
+    /* İletişim */
+
+    .iletisim-div {
+        margin-top: 100px;
+        margin-left: 20%;
+    
+        font-size: 20px;
+    
+        font-family: "Ojuju", sans-serif;
+    }
+    
+    input {
+        display: block;
+        width: 80%;
+        height: 50px;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 2px solid #000000;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+    }
+    
+    .isim {
+        padding-left: 10px;
+    }
+    
+    .send-button {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: block;
+        width: 87%;
+        height: 50px;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 2px solid #000000;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: rgb(36, 36, 44);
+        width: 100%;
+        height: 269px;
+        float: left;
+        color: white;
+        font-family: "Ojuju", sans-serif;
+    }
+    
+    .footer #kutu b {
+        font-size: 14px;
+    }
+    
+    .footer_container {
+        width: 768px;
+        height: 175px;
+        margin: 30px auto;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 17px 0;
+        padding: 0px;
+    }
+    
+    #kutu {
+        width: auto;
+        height: 125px;
+        float: left;
+        margin-left: 50px;
+    }
+    
+    ul li {
+        float: left;
+        font-family: tahoma;
+        font-size: 12px;
+        margin-bottom: 8px;
+        clear: left;
+        color: #949798;
+    }
+    
+    #kutu:last-child li {
+        float: left;
+        clear: none;
+        margin-right: 10px;
+    }
+    
+    .discord-footer{
+        color: #949798;
+    }
+    
+    .instagram-footer{
+        color: #949798;
+    
+    }
+    
+    .whatsapp-footer{
+        color: #949798;
+    
+    }
+    
+    .footer-a{
+        color: #949798;
+    }
+}
+  
+.nav-active{
+    transform: translateX(0);
+}
+  
+.close .line1{
+    transform: rotate(-45deg) translate(-5px,3px);
+    transition: .3s ease;
+}
+  
+.close .line2{
+    opacity: 0;
+}
+  
+.close .line3{
+    transform: rotate(45deg) translate(-5px,-3px);
+    transition: .3s ease;
+}
+  
+@keyframes linksFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+}

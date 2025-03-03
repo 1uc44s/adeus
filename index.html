@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADEUS</title>
+    <link rel="icon" type="image/x-icon" href="adeus.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Yuji+Mai&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-logo"><a href="https://adeus.com.tr" class="nav-logo-a">ADEUS</a></div>
+        <!-- <ul class="nav-links">
+            <li><a href="#anasayfa">Anasayfa</a></li>
+            <li><a href="#paket">Paket</a></li>
+            <li><a href="#sos-med">Sosyal Medya</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div> -->
+    </nav>
+
+    <div class="banner" id="anasayfa">
+        <img src="adeus-banner1.png" alt="">
+        <p class="banner-paragraf"> Yazılıma meraklı biri olarak siteler yapıyorum ve kendimi bu konuda geliştirmeye
+            çalışıyorum.
+            <br>
+            Kendimi geliştirirken sizler için Web Siteler tasarlamak istiyorum.
+            <br>
+            1 Adet Paketimiz vardır ve Paket aşağıda bulunmakta.
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="special-paket" id="paket">
+        <div class="spec-pak-baslik">
+            <a href="paket"></a>
+            <h1 class="spec-pak-h1">Özel Paket</h1>
+            <p class="spec-pak-p">Paket sizin isteklerinize göre ayarlanmaktadır.
+                <br>
+                Fakat paket ile beraber destekte vermekteyiz.
+            </p>
+        </div>
+
+        <ul class="spec-pak-icerik">
+            <li class="spec-pak-ice-li">İsteğinize göre Web Sitesi</li>
+            <li class="spec-pak-ice-li">Hosting Hakkında Destek</li>
+            <li class="spec-pak-ice-li">Domain Hakkında Destek</li>
+            <li class="spec-pak-ice-li">Web Site Düzenleme / Güncelleme</li>
+        </ul>
+
+        <a href="#iletisim" class="satin-al">İletişime Geç</a>
+
+    </div>
+
+    <hr>
+
+    <div class="sosyal-medya" id="sos-med">
+        <h1 class="sos-med-h1">ADEUS</h1>
+        <p class="sos-med-p">Bize Ulaşabileceğiniz Platformlar</p>
+
+        <div class="sos-meds">
+            <a href="https://discord.com/users/695594556942712872" target="_blank" class="discord"> <i class="fa-brands fa-discord"></i>
+                Discord</a>
+            <br>
+            <a href="https://www.instagram.com/0.0_lucaas/" target="_blank" class="instagram"> <i class="fa-brands fa-instagram"></i>
+                Instagram</a>
+            <br>
+            <a href="https://wa.me/*** *** ** **" target="_blank" class="whatsapp"> <i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="iletisim-div" id="iletisim">
+        <form class="iletisim-form" action="https://formspree.io/f/xyzyaarn" method="POST">
+
+            <label for="dc-isim" class="isim"> <b>Discord İsminiz</b> </label>
+            <br>
+            <input type="text" name="dc-isim" placeholder="örn: '0.0_lucass' - Yoksa boş bırakınız">
+
+            <br>
+
+            <label for="ig-isim" class="isim"> <b>Instagram İsminiz</b> </label>
+            <br>
+            <input type="text" name="ig-isim" placeholder="örn: '0.0_lucaas' - Yoksa boş bırakınız">
+
+            <br>
+
+            <label for="wp-num" class="isim"> <b>WhatsApp Numaranız</b> </label>
+            <br>
+            <input type="number" name="wp-num" placeholder="örn: '123 456 78 99' - +90 veya 0 olmadan">
+
+            <br>
+
+            <label for="e-posta" class="isim"> <b>E-Posta Adresiniz</b> </label>
+            <br>
+            <input type="email" name="e-posta" required placeholder="örn: 'adeus@gmail.com'">
+
+            <button type="submit" class="send-button">Gönder</button>
+
+        </form>
+    </div>
+
+    <hr>
+
+    <!--
+    <footer>
+        <div class="footer_container">
+            <div id="kutu" style="margin-left: 100px;">
+                <b>Sayfalar</b>
+                <ul class="footer-li">
+                    <li><a href="#" class="footer-a">Anasayfa</a></li>
+                    <li><a href="#" class="footer-a">Paket</a></li>
+                    <li><a href="#" class="footer-a">Sosyal Medya</a></li>
+                    <li><a href="#" class="footer-a">İletişim</a></li>
+                </ul>
+            </div>
+
+            <div id="kutu" style="margin-left: 100px;">
+                <b>İletişim</b>
+                <ul>
+                    <li>Discord: 0.0_lucass</li>
+                    <li>WhatsApp: *** *** ** **</li>
+                    <li>Instagram: 0.0_lucaas</li>
+                </ul>
+            </div>
+
+            <div id="kutu" style="margin-left:100px;">
+                <b>Sosyal Medya</b>
+                <ul>
+                    <a href="#" class="discord-footer"> <i class="fa-brands fa-discord"></i> Discord</a>
+                    <br>
+                    <a href="#" class="instagram-footer"> <i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <br>
+                    <a href="#" class="whatsapp-footer"> <i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </ul>
+            </div>
+        </div>
+    </footer> -->
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
